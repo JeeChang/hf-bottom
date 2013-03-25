@@ -10,6 +10,6 @@
 
 If you need more details, plz visit [google][1] or [wiki][2] or [baidu][3].
 
-[1]: www.google.com
-[2]: www.wikipedia.org
-[3]: www.baidu.com
+[1]: http://www.google.com
+[2]: http://www.wikipedia.org
+[3]: http://www.baidu.com
