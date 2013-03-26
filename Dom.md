@@ -1,8 +1,8 @@
-## DOM ##
+# DOM #
 
-### Core Object ###
+## Core Object ##
 
-#### Node Object ####
+### Node Object ###
 Every document enherits from Node object.
 
 1. Element
@@ -18,3 +18,32 @@ Every document enherits from Node object.
 11. DocumentFragment
 12. Notation
 
+#### Node Relativeship ####
+
+* childNodes
+* parentNode
+* previousSibling
+* nextSibling
+* firstChild
+* lastChild
+
+#### Node Attribute ####
+attributes
+:NamedNodeMap->getNamedItem() it is similar with [element].getAttribute()
+
+#### Node ownerDocument ####
+
+#### Check node/attribute ####
+hasChildNodes()/hasAttributes()
+childNodes/attributes
+
+#### Operate Node ####
+appendChild()/insertBefore(new,ref)
+removeChild()
+replaceChild(new,old)
+cloneNode
+
+
+### Core Element ###
+getAttribute/setAttribute/removeAttribute
+getAttributeNode/setAttributeNode/removeAttributeNode
