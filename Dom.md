@@ -1,6 +1,4 @@
-# DOM #
-
-## Core Object ##
+## Core DOM ##
 
 ### Node Object ###
 Every document enherits from Node object.
@@ -38,13 +36,46 @@ hasChildNodes()/hasAttributes()
 childNodes/attributes
 
 #### Operate Node ####
-appendChild()/insertBefore(new,ref)
-removeChild()
-replaceChild(new,old)
-cloneNode
+* appendChild()/insertBefore(new,ref)
+* removeChild()
+* replaceChild(new,old)
+* cloneNode
 
 
 ### Core Element ###
+* getAttribute/setAttribute/removeAttribute
+* getAttributeNode/setAttributeNode/removeAttributeNode
 
-getAttribute/setAttribute/removeAttribute
-getAttributeNode/setAttributeNode/removeAttributeNode
+### Core Document ###
+* document.documentElement
+* createAttribute()/createCDATASection(data)/createComment(data)/createDocumentFragment()/createElement(tagName)/createEntityReference(name)/createProcessingInstruction(target,data)/createTextNode(data)
+* getElementById()/getElementsByTagName()
+
+## DOM HTML ##
+
+### HTML DOCUMENT ###
+- title
+- referrer
+- domain
+- URL
+- body
+- images
+- applets
+- links
+- forms
+- anchors
+- cookie
+
++ open()
++ close()
++ write()
++ writeln()
++ getElementsByName()
+
+
+### HTML ELEMENT ###
+- id
+- title
+- lang
+- dir
+- className
