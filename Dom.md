@@ -45,5 +45,6 @@ cloneNode
 
 
 ### Core Element ###
+
 getAttribute/setAttribute/removeAttribute
 getAttributeNode/setAttributeNode/removeAttributeNode
